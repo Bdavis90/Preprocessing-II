@@ -1,3 +1,9 @@
+.custom-btn {
+  padding: 10px 55px;
+  border-radius: 10px;
+  background: #17A2B8;
+  color: #FFFFFF;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -224,4 +230,10 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  padding: 10px 55px;
+  border-radius: 10px;
+  background: #17A2B8;
+  color: #FFFFFF;
 }
