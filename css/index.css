@@ -1,3 +1,15 @@
+@media (max-width: 500px) {
+  .nav-top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .nav-top nav {
+    margin-left: 0px;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -173,9 +185,7 @@ img {
   padding: 10px 0;
   margin: 10px 0;
   align-items: center;
-}
-.nav-top nav {
-  margin-left: 350px;
+  justify-content: space-between;
 }
 .nav-top a {
   margin-left: 20px;
